@@ -1,32 +1,65 @@
-/* 🌿 Estilo base para página moderna */
-* {
+/* 🌿 Estilo base para página escolar */
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f4f6fc;
+  color: #333;
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
 }
 
-body {
-  background-color: #f9f9fc;
-  font-family: 'Poppins', sans-serif;
-  color: #333;
-  padding: 2em;
-  line-height: 1.6;
-}
-
-/* 🧭 Encabezado principal */
 header {
+  background-color: #4a90e2;
+  color: white;
   text-align: center;
-  padding: 1em 0;
-  background-color: #eae6ff;
-  color: #5c3d99;
-  font-size: 2em;
-  font-weight: 600;
-  box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+  padding: 2em 1em;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
 }
 
-/* 📦 Contenedor general */
+nav {
+  background-color: #e0e7ff;
+  padding: 1em;
+  text-align: center;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin: 0 1em;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #4a4a4a;
+  font-weight: bold;
+}
+
 .container {
   max-width: 800px;
   margin: 2em auto;
   padding: 1em;
-  background-color
+  background-color: white;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+}
+
+section {
+  margin-bottom: 2em;
+}
+
+section h2 {
+  color: #4a90e2;
+  margin-bottom: 0.5em;
+}
+
+footer {
+  background-color: #e0e7ff;
+  text-align: center;
+  padding: 1em;
+  font-size: 0.9em;
+  color: #555;
+}
